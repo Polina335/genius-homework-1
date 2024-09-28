@@ -1,0 +1,141 @@
+:root {
+    --color-primary-white: #ffffff;
+    --color-primary-blue: #2B7FFF;
+    --color-primary-dark: #011c44;
+    --color-secondary-graydark: #4A4A4A;
+    --color-secondary-gray:#747272;
+    --color-secondary-dark:#011F4A;
+    --color-secondary-yelow:#FFD02B;
+}
+
+/*Base*/
+body {
+   color: var(--color-primary-dark);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: 400;
+} 
+
+address {
+    font-style: normal;
+} /*Прибирає наклон тексту*/
+
+ul {
+    list-style-type: none;
+} /*прибирає мітки*/
+
+/*button*/
+.hero-button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue);
+    border: var(--color-primary-blue);
+    border-radius: 32px;
+    width: 219px;
+    height: 53px;
+    font-weight: 600;
+    padding: 16px 32px;
+    margin: 40px 14px;
+    cursor: pointer;
+    line-height: 1.17;
+}
+
+.hero-button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 32px;
+}
+
+.button-second {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue);
+    border: var(--color-primary-blue);
+    border-radius: 32px;
+    width: 281px;
+    height: 53px;
+    font-weight: 600;
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
+    line-height: 1.17;
+}
+
+.button-second:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 32px;
+}
+
+/*Link*/
+.link {
+    color: var(--color-primary-dark);
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.link:hover {
+    color: var(--color-primary-blue);
+    font-weight: 700;
+}
+
+.link .color {
+    color: var(--color-primary-blue);
+    font-weight: 700;
+}
+
+.link-two {
+    color: var(--color-primary-dark);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.link-two:hover {
+    color: var(--color-primary-blue);
+    font-weight: 700;
+}
+
+/*hero-section*/
+/*section-title*/
+.hero-title {
+    color: var(--color-primary-blue);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.23;
+    
+}
+
+/*second-section*/
+.one-span span {
+   color: var(--color-primary-blue);
+}
+
+/*three-section*/
+.three-span span {
+    color: var(--color-primary-blue);
+}
+
+.why {
+    line-height: 1.3;
+}
+
+/*four-section*/
+.four-span span {
+    color: var(--color-primary-blue);
+}
+
+/*five-section*/
+.five-span span {
+    color: var(--color-primary-blue);
+}
+
+/*footer*/
+.footer-save {
+    color: var(--color-secondary-gray);
+    font-size: 13px;
+    line-height: 1.17;
+}
